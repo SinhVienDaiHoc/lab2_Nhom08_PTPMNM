@@ -5,15 +5,8 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
-<<<<<<< HEAD
-int main()
-{
-	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	int a, b;
-    cout << "Nhap hai so nguyen: ";
-    cin >> a >> b;
-	cout << "Hieu cua " << x << " va " << y << " la: " << hieu(x, y) << endl;
-=======
+
+
 
 int tong(int a, int b){
 return a+b;
@@ -27,11 +20,11 @@ int hieu(int a,int b){
 int main()
 {	int a, b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT" << endl;
-	cout << "Nhap a:";
+	cout << "\nNhap a:";
 	cin >> a;
 	cout << "\nNhap b:";
 	cin >> b;
-	cout << "Gia tri trong la:" << tong(a,b)<<endl;
+	cout << "\nGia tri trong la:" << tong(a,b)<<endl;
 	cout<<"\nGia tri tich la:"<<tich(a,b)<<endl;
 	cout<<"\nGia tri hieu la:"<<hieu(a,b)<<endl;
 	system("pause");
