@@ -13,6 +13,10 @@ return a+b;
 int tich(int a,int b){
 	return a*b;
 }
+
+int hieu(int a,int b){
+	return a-b;
+}
 float thuong(int a, int b){
 	if (b == 0) {
 		cout << "loi: khong the chia cho 0" << endl;
@@ -27,8 +31,9 @@ int main()
 	cin >> a;
 	cout << "\nNhap b:";
 	cin >> b;
-	cout << "Gia tri trong la:" << tong(a,b)<<endl;
+	cout << "Gia tri tong la:" << tong(a,b)<<endl;
 	cout<<"\nGia tri tich la:"<<tich(a,b)<<endl;
+	cout<<"\nGia tri hieu la:"<<hieu(a,b)<<endl;
 	cout <<"\nGia tri thuong la: " << thuong(a,b) << endl;
 	
 	system("pause");
